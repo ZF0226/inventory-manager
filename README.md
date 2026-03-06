@@ -1,11 +1,7 @@
-# 进入项目目录
 cd /home/ubuntu/inventory-manager
-
-# 添加所有文件（包括更新的 codemagic.yaml）
+git init
 git add .
-
-# 提交更改
-git commit -m "Update codemagic configuration"
-
-# 推送到 GitHub
-git push origin main
+git commit -m "Initial commit with codemagic configuration"
+git remote add origin https://github.com/xiubin.lu@gmail.com/inventory-manager.git
+git branch -M main
+git push -u origin main
